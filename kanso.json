@@ -4,18 +4,20 @@
     "description": "Kanso admin app",
     "load": "lib/app",
     "modules": "lib",
-    "templates": "templates",
     "attachments": "static",
+    "dust": {
+        "templates": "templates"
+    },
     "dependencies": {
         "properties": null,
         "modules": null,
         "settings": null,
         "attachments": null,
-        "kanso-core": null,
-        "kanso-templates": null,
-        "kanso-sanitize": null,
-        "kanso-flashmessages": null,
-        "kanso-forms": null,
-        "kanso-widgets": null
+        "dust": null,
+        "duality": null,
+        "duality-dust": null,
+        "sanitize": null,
+        "duality-flashmessages": null,
+        "couchtypes": null
     }
 }
